@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+/* @media screen and (width : 710px) {
+
+    #banner-desc p{
+        font-size: 1rem;
+    }
+} */
+
+
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+
+}
+
+ul h2{
+    color:white;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#banner-desc{
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/15/13/27/rough-horn-2146181_1280.jpg");
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#banner-desc h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+#banner-desc p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 6px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: white;
+}
+
+#banner-desc button{
+    border: 0;
+    background-color: #0096c7;
+    color: white;
+    padding: 20px;
+    margin: 22px;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+@media screen and (width<=720px) {
+    #banner-desc p{
+        font-size: 1rem;
+    }
+
+    #banner-desc h1{
+        font-size: 2.5rem;
+    }
+
+    #banner-desc button{
+        font-size: 0.6rem;
+        padding: 10px;
+        margin: 11px;
+    }
+}
+
+#dest{
+    margin: 20px;
+    text-align: center;
+    
+}
+
+#dest hr{
+    margin: 10px;
+    height: 5px;
+    background-color: black;
+    border: 0;
+    border-radius: 20px;
+}
+
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    
+    
+}
+
+#grid div{
+    height: 350px;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+#grid div img{
+    height: 100%;
+    width: 100%;
+}
+
+#grid .small{
+    flex-basis: 28%;
+}
+
+#grid .big{
+    flex-basis: 69%;
+}
+
