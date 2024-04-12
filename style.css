@@ -19,14 +19,6 @@ nav{
     margin-right: 50px;
 }
 
-/* @media screen and (width : 710px) {
-
-    #banner-desc p{
-        font-size: 1rem;
-    }
-} */
-
-
 
 ul{
     display: flex;
@@ -136,10 +128,79 @@ a{
 }
 
 #grid .small{
-    flex-basis: 28%;
+    flex-basis: 29%;
 }
 
 #grid .big{
-    flex-basis: 69%;
+    flex-basis: 68%;
+}
+
+@media screen and (width <= 1333px ) {
+
+    #grid .big{
+        flex-basis: 38%;
+    }
+
+    #grid .small{
+        flex-basis: 58%;
+    }
+    
+}
+
+@media screen and (width <= 1000px ) {
+
+    #grid .big{
+        height: 200px;
+        flex-basis: 47.5%;
+    }
+
+    #grid .small{
+        height: 200px;
+        flex-basis: 47.5%;
+    }
+    
+}
+
+@media screen and (width <= 800px ) {
+
+    #grid .big{
+        height: 250px;
+        flex-basis: 98%;
+    }
+
+    #grid .small{
+        height: 250px;
+        flex-basis: 98%;
+    }
+    
+}
+
+@media screen and (width <= 440px ) {
+
+    #banner-desc h1{
+        font-size: small;
+    }
+
+    #banner-desc p{
+        font-size: x-small;
+    }
+
+    #banner-desc button{
+        font-size: 0.4rem;
+}
+
+nav h2{
+    font-size: 0.6rem;
+}
+
+nav ul li a{
+    font-size: 0.6rem;
+}
+
+}
+
+footer p{
+    text-align: center;
+    margin: 10px;
 }
 
