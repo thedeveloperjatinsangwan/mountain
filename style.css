@@ -50,19 +50,38 @@ a{
     align-items: center;
     width: 100%;
     height: 100vh;
-    
-    /* animation-name: fadeIn;
-    animation-duration:3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards; */
-    /* opacity: 0; */
+      
 }
 
-/* @keyframes fadeIn{
+#banner-desc p {
+    animation-name: fadeIn;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+}
+
+#banner-desc h1 {
+    animation-name: fadeIn;
+    animation-duration:1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+}
+
+#banner-desc button {
+    animation-name: fadeIn;
+    animation-duration:1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+}
+
+@keyframes fadeIn{
     100%{
         opacity: 1;
     }
-} */
+}
 
 #banner-desc h1{
     font-family: Arial, Helvetica, sans-serif;
